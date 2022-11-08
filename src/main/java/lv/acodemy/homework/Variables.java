@@ -9,8 +9,8 @@ public class Variables {
         String byte1 = "Task 1.1. byte\n";
         System.out.println(byte1);
 
-        byte price1 = 100;
-        System.out.println("Price=" + price1);
+        byte groceryProductPrice = 100;
+        System.out.println("Price=" + groceryProductPrice);
 
         byte price2 = 67;
         System.out.println(price2);
@@ -273,13 +273,13 @@ public class Variables {
     String task2 = "\nTask 2: Using all Java Operators create arithmetic operations for each data type\n";
 
     System.out.println(task2);
-        byte add1 = (byte) (price1 + price2);
+        byte add1 = (byte) (groceryProductPrice + price2);
         System.out.println(add1);
 
         byte sub1 = (byte) (price4 - price3);
         System.out.println(sub1);
 
-        byte mult1 = (byte) (price5 * price1);
+        byte mult1 = (byte) (price5 * groceryProductPrice);
         System.out.println(mult1);
 
         byte div1 = (byte) (price5 / discount1);
