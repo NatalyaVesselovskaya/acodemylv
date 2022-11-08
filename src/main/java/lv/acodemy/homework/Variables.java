@@ -3,110 +3,105 @@ package lv.acodemy.homework;
 public class Variables {
     public static void main(String[] args) {
 
-        String task1 = "\nTask 1: Create 10 variables for each data type\n";
-        System.out.println(task1);
+        System.out.println("\nTask 1: Create 10 variables for each data type\n");
 
-        String byte1 = "Task 1.1. byte\n";
-        System.out.println(byte1);
+        System.out.println("Task 1.1. byte\n");
 
-        byte groceryProductPrice = 100;
-        System.out.println("Price=" + groceryProductPrice);
+        byte tomatoes = 100;
+        System.out.println("Price=" + tomatoes);
 
-        byte price2 = 67;
-        System.out.println(price2);
+        byte potato = 67;
+        System.out.println(potato);
 
-        byte price3 = 33;
-        System.out.println(price3);
+        byte apples = 33;
+        System.out.println(apples);
 
-        byte price4 = 88;
-        System.out.println(price4);
+        byte oranges = 88;
+        System.out.println(oranges);
 
-        byte price5 = 122;
-        System.out.println(price5);
+        byte cucumbers = 122;
+        System.out.println(cucumbers);
 
-        byte discount1 = -50;
-        System.out.println("Your discount is" + discount1 + "%");
+        byte tomatoDiscount = -50;
+        System.out.println("Your discount is" + tomatoDiscount + "%");
 
-        byte discount2 = -30;
-        System.out.println("Your discount is" + discount2 + "%");
+        byte potatoDiscount = -30;
+        System.out.println("Your discount is" + potatoDiscount + "%");
 
-        byte discount3 = -25;
-        System.out.println("Your discount is" + discount3 + "%");
+        byte applesDiscount = -25;
+        System.out.println("Your discount is" + applesDiscount + "%");
 
-        byte discount4 = -15;
-        System.out.println("Your discount is" + discount4 + "%");
+        byte orangesDiscount = -15;
+        System.out.println("Your discount is" + orangesDiscount + "%");
 
-        byte discount5 = -10;
-        System.out.println("Your discount is" + discount5 + "%");
+        byte cucumbersDiscount = -10;
+        System.out.println("Your discount is" + cucumbersDiscount + "%");
 
-        String short1 = "\nTask 1.2. short\n";
-        System.out.println(short1);
+        System.out.println("\nTask 1.2. short\n");
 
-        short salary1 = 1000;
-        System.out.println("My first salary:" + salary1);
+        short salaryAnna = 1000;
+        System.out.println("My first salary:" + salaryAnna);
 
-        short salary2 = 2000;
-        System.out.println("My second salary:" + salary2);
+        short salaryMarija = 2000;
+        System.out.println("My second salary:" + salaryMarija);
 
-        short salary3 = 3500;
-        System.out.println(salary3);
+        short vacationExpenses = 3500;
+        System.out.println(vacationExpenses);
 
-        short salary4 = 5700;
-        System.out.println(salary4);
+        short vacationSavings = 5700;
+        System.out.println(vacationSavings);
 
-        short rent1 = 15000;
-        System.out.println("One bedroom apartment rent is " + rent1 + " euro per month");
+        short rentRoom = 15000;
+        System.out.println("One bedroom apartment rent is " + rentRoom + " euro per month");
 
-        short rent2 = 17100;
-        System.out.println(rent2);
+        short rentApartment = 17100;
+        System.out.println(rentApartment);
 
-        short savings1 = 24750;
-        System.out.println(savings1);
+        short creditDebt = 24750;
+        System.out.println(creditDebt);
 
-        short savings2 = 30280;
-        System.out.println(savings2);
+        short creditPercent = 30280;
+        System.out.println(creditPercent);
 
-        short cardBalance1 = -29000;
-        System.out.println("Card balance:" + cardBalance1);
+        short cardBalanceJune = -29000;
+        System.out.println("Card balance:" + cardBalanceJune);
 
-        short cardBalance2 = -32768;
-        System.out.println("Card balance:" + cardBalance2);
+        short cardBalanceMay = -32768;
+        System.out.println("Card balance:" + cardBalanceMay);
 
-        String char1 = "\nTask 1.3. char\n";
-        System.out.println(char1);
+        System.out.println("\nTask 1.3. char\n");
 
-        char categoryA = 'A';
-        System.out.println("Product category - " + categoryA);
+        char licenseCategoryA = 'A';
+        System.out.println("Product category - " + licenseCategoryA);
 
-        char categoryB = 'B';
-        System.out.println(categoryB);
+        char licenseCategoryB = 'B';
+        System.out.println(licenseCategoryB);
 
-        char categoryC = 'C';
-        System.out.println(categoryC);
+        char licenseCategoryC = 'C';
+        System.out.println(licenseCategoryC);
 
-        char seatD = 'D';
-        System.out.println("Plane seat " + seatD);
+        char licenseCategoryD = 'D';
+        System.out.println("Plane seat " + licenseCategoryD);
 
-        char seatE = 'E';
-        System.out.println("Theater seat " + seatE);
+        char licenseCategoryE = 'E';
+        System.out.println("Theater seat " + licenseCategoryE);
 
-        char seatF = 'F';
-        System.out.println(seatF);
+        char PlaneSeatF = 'F';
+        System.out.println(PlaneSeatF);
 
-        char seatG = 'G';
-        System.out.println(seatG);
+        char PlaneSeatG = 'G';
+        System.out.println(PlaneSeatG);
 
-        char myGrade1 = 'A';
-        System.out.println("Exam grade:" + myGrade1);
+        char gradeExam = 'A';
+        System.out.println("Exam grade:" + gradeExam);
 
-        char myGrade2 = 'B';
-        System.out.println("Home task grade " + myGrade2 + "-");
+        char gradeHometask = 'B';
+        System.out.println("Home task grade " + gradeHometask + "-");
 
-        char myGrade3 = 'C';
-        System.out.println("Test grade: " + myGrade3);
+        char gradeTest = 'C';
+        System.out.println("Test grade: " + gradeTest);
 
-        String int1 = "\nTask 1.4. int\n";
-        System.out.println(int1);
+        System.out.println("\nTask 1.4. int\n");
 
         int populationRiga = 632614;
         System.out.println("Population of Riga is " + populationRiga);
@@ -123,11 +118,11 @@ public class Variables {
         int populationLondon = 8797000;
         System.out.println("Population of London is " + populationLondon + " in 2017");
 
-        int refugeesN = 15000;
-        System.out.println("Number of refugees exceeds " + refugeesN + " people");
+        int refugeesNumber = 15000;
+        System.out.println("Number of refugees exceeds " + refugeesNumber + " people");
 
-        int shares = 7743;
-        System.out.println("Share rate:" + shares);
+        int companyShares = 7743;
+        System.out.println("Share rate:" + companyShares);
 
         int coronaCases = 637680480;
         System.out.println("Coronavirus Cases:" + coronaCases);
@@ -135,29 +130,28 @@ public class Variables {
         int coronaDeaths = 6605415;
         System.out.println("Coronavirus death rate:" + coronaDeaths);
 
-        int coronaRec = 617201317;
-        System.out.println("Recovery cases:" + coronaRec);
+        int coronaRecovery = 617201317;
+        System.out.println("Recovery cases:" + coronaRecovery);
 
-        String float1 = "\nTask 1.5. float\n";
-        System.out.println(float1);
+        System.out.println("\nTask 1.5. float\n");
 
-        float temp1 = 36.6f;
-        System.out.println("Normal temperature:" + temp1 + "C");
+        float tempNormal = 36.6f;
+        System.out.println("Normal temperature:" + tempNormal + "C");
 
-        float temp2 = 37.8f;
-        System.out.println("Fever:" + temp2 + "C");
+        float tempFever = 37.8f;
+        System.out.println("Fever:" + tempFever + "C");
 
-        float temp3 = 39.8f;
-        System.out.println("Extremely high temperature:" + temp3 + "C");
+        float tempExtreme = 39.8f;
+        System.out.println("Extremely high temperature:" + tempExtreme + "C");
 
-        float tempAvrg = 10.5f;
-        System.out.println("Average temperature in autumn is +" + tempAvrg + "C");
+        float tempAutumn = 10.5f;
+        System.out.println("Average temperature in autumn is +" + tempAutumn + "C");
 
-        float tempAvrg2 = 22.7f;
-        System.out.println("Average temperature in summer is +" + tempAvrg2 + "C");
+        float tempSummer = 22.7f;
+        System.out.println("Average temperature in summer is +" + tempSummer + "C");
 
-        float tempAvrg3 = 7.7f;
-        System.out.println("-" + tempAvrg3);
+        float tempSpring = 7.7f;
+        System.out.println("-" + tempSpring);
 
         float testScoreMath = 97.4f;
         System.out.println("Math test: " + testScoreMath + "%");
@@ -171,59 +165,45 @@ public class Variables {
         float testScoreHist = 88.3f;
         System.out.println("History test: " + testScoreHist + "%");
 
-        String long1 = "\nTask 1.6. long\n";
-        System.out.println(long1);
+        System.out.println("\nTask 1.6. long\n");
 
-        long cellsNmbr = 30000000000L;
-        System.out.println("Number of cells in the human body is about " + cellsNmbr);
+        long cellsNumber = 30000000000L;
+        System.out.println("Number of cells in the human body is about " + cellsNumber);
 
-        long distSun = 150000000L;
-        System.out.println("Earth's average distance to the Sun is " + distSun + " km");
+        long distanceSun = 150000000L;
+        System.out.println("Earth's average distance to the Sun is " + distanceSun + " km");
 
-        long distUranus = 2600000000L;
-        System.out.println("Distance between the Earth and the Uranus is " + distUranus + " km");
+        long distanceUranus = 2600000000L;
+        System.out.println("Distance between the Earth and the Uranus is " + distanceUranus + " km");
 
         long populationEarth = 7837000000L;
         System.out.println("Population of the Earth is " + populationEarth + " people");
 
-        long shares1 = 4500000600L;
-        System.out.println(shares1);
+        long nervesNumber = 7000000000L;
+        System.out.println("Number of nerves in the human body is " + nervesNumber);
 
-        long shares2 = 650000000L;
-        System.out.println(shares2);
+        long secondsAYear = 31536000;
+        System.out.println("One year equals " + secondsAYear + " seconds");
 
-        long shares3 = 8000000010L;
-        System.out.println(shares3);
+        System.out.println("\nTask 1.7. double\n");
 
-        long shares4 = 20000000040L;
-        System.out.println(shares4);
+        double stockPriceFacebook = 23748.99;
+        System.out.println(stockPriceFacebook);
 
-        long nerves = 7000000000L;
-        System.out.println("Number of nerves in the human body is " + nerves);
+        double stockPriceGoogle = 45356.09;
+        System.out.println(stockPriceGoogle);
 
-        long seconds = 31536000;
-        System.out.println("One year equals " + seconds + " seconds");
+        double stockPriceAmazon = 65.0876;
+        System.out.println(stockPriceAmazon);
 
-        String double1 = "\nTask 1.7. double\n";
-        System.out.println(double1);
+        double stockPriceApple = 1234.45509;
+        System.out.println(stockPriceApple);
 
-        double stockPrice1 = 23748.99;
-        System.out.println(stockPrice1);
+        double stockPriceMyCompany = 98.90034;
+        System.out.println(stockPriceMyCompany);
 
-        double stockPrice2 = 45356.09;
-        System.out.println(stockPrice2);
-
-        double stockPrice3 = 65.0876;
-        System.out.println(stockPrice3);
-
-        double stockPrice4 = 1234.45509;
-        System.out.println(stockPrice4);
-
-        double stockPrice5 = 98.90034;
-        System.out.println(stockPrice5);
-
-        double share6 = 2065.98;
-        System.out.println(share6);
+        double shareForSale = 2065.98;
+        System.out.println(shareForSale);
 
         double share7 = 548932.0001;
         System.out.println(share7);
@@ -237,8 +217,7 @@ public class Variables {
         double share10 = 987323.0029;
         System.out.println(share10);
 
-        String boolean1 = "\nTask 1.8. boolean\n";
-        System.out.println(boolean1);
+        System.out.println("\nTask 1.8. boolean\n");
 
         boolean isSunday = false;
         System.out.println(isSunday);
@@ -270,77 +249,51 @@ public class Variables {
         boolean isMorning = false;
         System.out.println(isMorning);
 
-    String task2 = "\nTask 2: Using all Java Operators create arithmetic operations for each data type\n";
+        String task2 = "\nTask 2: Using all Java Operators create arithmetic operations for each data type\n";
+        System.out.println(task2);
 
-    System.out.println(task2);
-        byte add1 = (byte) (groceryProductPrice + price2);
-        System.out.println(add1);
+        byte tomatoesAndPotatoes = (byte) (tomatoes + potato);
+        System.out.println(tomatoesAndPotatoes);
 
-        byte sub1 = (byte) (price4 - price3);
-        System.out.println(sub1);
+        byte subtractOrangesApples = (byte) (oranges - apples);
+        System.out.println(subtractOrangesApples);
 
-        byte mult1 = (byte) (price5 * groceryProductPrice);
-        System.out.println(mult1);
+        int salaryPerYear = salaryAnna * 12;
+        System.out.println(salaryPerYear);
 
-        byte div1 = (byte) (price5 / discount1);
-        System.out.println(div1);
+        int expensesLeftovers = (salaryMarija * 12) - rentApartment;
+        System.out.println(expensesLeftovers);
 
-        int mult2 = salary1 * 12;
-        System.out.println(mult2);
+        int coronaCasesTotal = coronaDeaths + coronaRecovery;
+        System.out.println(coronaCasesTotal);
 
-        int sub2 = (salary2 * 12) - rent2;
-        System.out.println(sub2);
+        int coronaCasesPerDay = coronaCases / 365;
+        System.out.println(coronaCasesPerDay);
 
-        int add2 = coronaCases + coronaRec;
-        System.out.println(add2);
+        short creditDebtWithoutRent = (short) (creditDebt - rentRoom);
+        System.out.println(creditDebtWithoutRent);
 
-        int div2 = coronaCases / 365;
-        System.out.println(div2);
+        short cardBalanceTotal = (short) (cardBalanceJune + cardBalanceMay);
+        System.out.println(cardBalanceTotal);
 
-        short sub3 = (short) (savings1 - rent1);
-        System.out.println(sub3);
+        short creditPercentPerMonth = (short) (creditPercent / 12);
+        System.out.println(creditPercentPerMonth);
 
-        short add4 = (short) (cardBalance1 + cardBalance2);
-        System.out.println(add4);
+        short omeMonthRent = (short) (rentApartment / 30);
+        System.out.println(omeMonthRent);
 
-        short div4 = (short) (savings2 / 12);
-        System.out.println(div4);
+        float temperatureRaise = tempExtreme - tempFever;
+        System.out.println(temperatureRaise);
 
-        short mult4 = (short) (rent2 / 30);
-        System.out.println(mult4);
+        long distanceTotal = distanceUranus + distanceSun;
+        System.out.println(distanceTotal);
 
-        short rem4 = (short) (savings2 % rent1);
-        System.out.println(rem4);
+        long distanceMinimum = distanceSun - distanceUranus;
+        System.out.println(distanceMinimum);
 
-        float add5 = temp1 + temp2;
-        System.out.println(add5);
+        long minutesAYear = secondsAYear / 60;
+        System.out.println(minutesAYear);
 
-        float sub5 = temp2 - temp3;
-        System.out.println(sub5);
-
-        float rem5 = tempAvrg3 % tempAvrg;
-        System.out.println(rem5);
-
-        float mult5 = tempAvrg2 * 12;
-        System.out.println(mult5);
-
-        float div5 = tempAvrg3 / 100;
-        System.out.println(div5);
-
-        long add6 = shares1 + shares2;
-        System.out.println(add6);
-
-        long sub6 = shares3 - shares4;
-        System.out.println(sub6);
-
-        long div6 = seconds / 60;
-        System.out.println(div6);
-
-        long mult6 = seconds * 365;
-        System.out.println(mult6);
-
-        long rem6 = distSun % 1800;
-        System.out.println(rem6);
 
     }
 
