@@ -1,5 +1,6 @@
 package lv.acodemy.classroom;
 
+import javax.sound.midi.Soundbank;
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 
@@ -16,15 +17,31 @@ public class InteractiveApp {
 
         System.out.println("Press 1 for registration or press 2 to stop chat");
         byte answer = chatBot.nextByte();
-        if (answer == 1) {
-            System.out.println("Please enter the date in the following format: (dd-mm-yyyy)");
-            String registrationDate = chatBot.next();
-            System.out.println("You've registered on date: " + registrationDate);
-        } else if(answer == 2) {
-            System.out.println("OK, this chat will be closed now!");
-            chatBot.close();
-        } else {
-            System.out.println("Option is not correct! Try again!");
+        boolean isCorrect = false;
+        while (isCorrect == false) {
+            if (answer == 1) {
+                System.out.println("Please enter the date in the following format: (dd-mm-yyyy)");
+                String registrationDate = chatBot.next();
+                System.out.println("You've registered on date: " + registrationDate);
+                isCorrect = true;
+            } else if (answer == 2) {
+                System.out.println("OK, this chat will be closed now!");
+                chatBot.close();
+                isCorrect = true;
+            } else {
+                System.out.println("Option is not correct! Try again!");
+                System.out.println("Press 1 for registration or press 2 to stop chat");
+                answer = chatBot.nextByte();
+            }
+            if (answer == 1) {
+                System.out.println("Are you not going to use the insurance? (Correct answer: true or false)");
+                boolean isInsured = chatBot.nextBoolean();
+                if (isInsured == true) {
+                    System.out.println("You are going yo pay for the services");
+                } else if{
+                    System.out.println("For you it will cost: 100 EUR");
+                }
+            }
         }
     }
 }
