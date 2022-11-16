@@ -33,15 +33,7 @@ public class InteractiveApp {
                 System.out.println("Press 1 for registration or press 2 to stop chat");
                 answer = chatBot.nextByte();
             }
-            if (answer == 1) {
-                System.out.println("Are you not going to use the insurance? (Correct answer: true or false)");
-                boolean isInsured = chatBot.nextBoolean();
-                if (isInsured == true) {
-                    System.out.println("You are going yo pay for the services");
-                } else if{
-                    System.out.println("For you it will cost: 100 EUR");
-                }
-            }
+
         }
     }
 }
